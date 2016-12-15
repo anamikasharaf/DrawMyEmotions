@@ -4,7 +4,7 @@ Description:
 
 This project will takes an input tweet and will perform sentiment analysis on it. Based on the emotions detected in the analysis, this system will represent those sentiment in form of an abstract art. This art will be tweeted as a response to the input tweet.
 
-1. Sentiment Analysis
+1> Sentiment Analysis
 
 I will be taking the help of “http://text-processing.com/api/sentiment/ “ to analyze the sentiment.
 
@@ -22,13 +22,13 @@ $ curl -d "text=great" http://text-processing.com/api/sentiment/
         "label": "pos"
 }
 
-2. Tweeter Account and Input Tweet
+2> Tweeter Account and Input Tweet
 
 I have created a twitterbot account. 
 
 After connecting from my twitter account, I read the input tweet into a string and do sentiment analysis on that.
 
-3. Creating Art
+3> Creating Art
 
 I am creating a random art based on emotion. Color palette is selected at random. There are four layers of color on the canvas. background color, foreground color, layer1, layer2. Each layer of color has it’s own palette which gets selected randomly.
 
@@ -36,7 +36,7 @@ I have divided the canvas into four quadrant. At a given time I work with combin
 
 I save the postscript file and convert that into a .png file with high quality.
 
-4. Tokenized Sentiment Analysis
+4> Tokenized Sentiment Analysis
 
 Apart from using sentiment analysis, to be more precise on emotion, emotion_dict dictionary is referred.
 
@@ -48,7 +48,7 @@ For Example:
 >> print tok
 >> smile
 
-5. Research for emotions and colors representation
+5> Research for emotions and colors representation
 
 ->For Happy Instance
 
