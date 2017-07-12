@@ -38,7 +38,7 @@ After connecting from my twitter account, I read the input tweet into a string a
 
 3> Creating Art
 
-I am creating a random art based on emotion. Color palette is selected at random. There are four layers of color on the canvas. background color, foreground color, layer1, layer2. Each layer of color has it’s own palette which gets selected randomly.
+I am creating a abstract art based on emotion. Color palette is selected at random. There are four layers of color on the canvas. background color, foreground color, layer1, layer2. Each layer of color has it’s own palette which gets selected randomly.
 
 I have divided the canvas into four quadrant. At a given time I work with combination of randomly picked two quadrant. Once quadrant is picked my layer1 and layer2 color’s quadrant will be picked based on which quadrant foreground art getting created. All the shapes are random and I use variation of different shapes to have more effect.
 
@@ -53,8 +53,11 @@ If the emotion is found to be sad by sentiment analysis then it refers the dicti
 For Example:
 
 >> tok = lmtzr.lemmatize(“smiling”,’v’)
+
 >> print tok
+
 >> smile
+
 
 5> Research for emotions and colors representation
 
@@ -110,8 +113,11 @@ I have chosen palette of Green-Yellow and Blue-Green
 
 
 Researches has been done from:
+
 www.areconnecting.com
+
 https://goo.gl/26VCbl
+
 https://goo.gl/fkQbyd
 
 
