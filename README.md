@@ -2,7 +2,7 @@
 
 Description:
 
-This project will takes an input tweet and will perform sentiment analysis on it. Based on the emotions detected in the analysis, this system will represent those sentiment in form of an abstract art. This art will be tweeted as a response to the input tweet.
+This project will take an input tweet and will perform sentiment analysis on it. Based on the emotions detected in the analysis, this system will represent those sentiment in form of an abstract art. This art will be tweeted as a response to the input tweet.
 
 1> Sentiment Analysis
 
