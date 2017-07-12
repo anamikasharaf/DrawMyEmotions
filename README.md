@@ -13,13 +13,21 @@ This API returns a json file with probability for each [neg,neutral,pos] label.
 for example
 
 $ curl -d "text=great" http://text-processing.com/api/sentiment/
+
+
 {
+
+
         "probability": {
                 "neg": 0.39680315784838732,
                 "neutral": 0.28207586364297021,
                 "pos": 0.60319684215161262
         },
+        
+        
         "label": "pos"
+        
+        
 }
 
 2> Tweeter Account and Input Tweet
